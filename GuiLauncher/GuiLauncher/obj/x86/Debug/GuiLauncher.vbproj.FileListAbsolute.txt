@@ -1,0 +1,15 @@
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Debug\GuiLauncher.exe
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Debug\GuiLauncher.pdb
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Debug\GuiLauncher.xml
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.load_wait.resources
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.Main.resources
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.Resources.resources
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.vbproj.GenerateResource.Cache
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.exe
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.xml
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.pdb
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.xml_info.resources
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Debug\GuiLauncher.exe.manifest
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Debug\GuiLauncher.application
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.exe.manifest
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Debug\GuiLauncher.application

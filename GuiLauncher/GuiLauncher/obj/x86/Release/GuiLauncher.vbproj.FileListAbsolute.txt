@@ -1,0 +1,15 @@
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Release\GuiLauncher.exe.manifest
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Release\GuiLauncher.application
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Release\GuiLauncher.exe
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Release\GuiLauncher.pdb
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\bin\Release\GuiLauncher.xml
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.load_wait.resources
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.Main.resources
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.Resources.resources
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.xml_info.resources
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.vbproj.GenerateResource.Cache
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.exe.manifest
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.application
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.exe
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.xml
+C:\Users\me\documents\visual studio 2010\Projects\GuiLauncher\GuiLauncher\obj\x86\Release\GuiLauncher.pdb

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <label>City of Heroes</label>
+  <profiles>
+    <launch params="-patchDir rebirth -auth i24.cityofheroesrebirth.com" order="0" icon="https://play.cityofheroesrebirth.com/images/Rebirth_logo-100x100.png" motd="https://play.cityofheroesrebirth.com/images/motd.txt" exec="Rebirth.exe" website="https://play.cityofheroesrebirth.com/embed.html">City of Heroes: Rebirth</launch>
+	<launch params="-patchDir rebirth_test -servergroup 2 -auth i24.cityofheroesrebirth.com" order="1" icon="https://play.cityofheroesrebirth.com/images/Rebirth_PTS_logo-100x100.png" motd="https://play.cityofheroesrebirth.com/images/motd-PTS.txt" exec="RebirthTest.exe" website="https://play.cityofheroesrebirth.com/embed.html">[PTS] City of Heroes: Rebirth</launch>
+  </profiles>
+  <filelist>
+    <!-- Ouroboros v2i1 - Rebirth Game Update #3 (Rebirth Test #5) - Updated:07/27/2020* -->
+    <file md5="546EB6220246E27CB1E6A149C6EA4FDC" size="5667432" name="cg.dll">
+      <url>https://brute.coh.network/OuroDev/v2i1/cg.dll</url>
+    </file>
+    <file md5="7652657FA392FB9418CCF309145DD7B4" size="350824" name="cgGL.dll">
+      <url>https://brute.coh.network/OuroDev/v2i1/cgGL.dll</url>
+    </file>
+    <file md5="404F5E87EA3B18EC38D1CCE05CDFF657" size="290408" name="cudart32_30_9.dll">
+      <url>https://brute.coh.network/OuroDev/v2i1/cudart32_30_9.dll</url>
+    </file>
+    <file md5="1CA9D1701A5F80AE1ED29AEBAEF3C6D9" size="749568" name="NxCooking.dll">
+      <url>https://brute.coh.network/OuroDev/v2i1/NxCooking.dll</url>
+    </file>
+    <file md5="7D0CDB880FEEBF3F4C1BB0DDB7E75908" size="383840" name="PhysXCooking.dll">
+      <url>https://brute.coh.network/OuroDev/v2i1/PhysXCooking.dll</url>
+    </file>
+    <file md5="BA59004E116FE1E6F40F899D5103868A" size="3567456" name="PhysXCore.dll">
+      <url>https://brute.coh.network/OuroDev/v2i1/PhysXCore.dll</url>
+    </file>
+    <file md5="2147A0A90F430C76A8584A021C6AC381" size="64352" name="PhysXLoader.dll">
+      <url>https://brute.coh.network/OuroDev/v2i1/PhysXLoader.dll</url>
+    </file>
+    <file md5="8030E32F1E1A8E77A00181FEC05A3F2D" size="29" name="version.ini">
+      <url>https://brute.coh.network/OuroDev/v2i1/version.ini</url>
+    </file>
+    <!-- <file md5="7A705AA0259B4BA07DF49E427D006163" size="116021" name="ouro/DBTextures.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
+    </file>
+    <file md5="4EE5F0BA1EB11CDD8A3D5BE0B0CFB863" size="9841821" name="ouro/ouro_bin_v2i1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
+    </file>
+    <file md5="ABEFD84E04E6DECD9C530A814E89FA8F" size="16844" name="ouro/ouro_emblems_v2i1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
+    </file>
+    <file md5="3556FFC8413EF229B6E590C9C629569C" size="359958" name="ouro/ouro_login_v2i1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
+    </file> -->
+    <file md5="1DE2498E6F4D0033790DE0DECE296366" size="31950331" name="piggs/bin.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/bin.pigg</url>
+    </file>
+    <file md5="22775C3C4BF5FCA70C4B435CCB4DEB14" size="20870327" name="piggs/fonts.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/fonts.pigg</url>
+    </file>
+    <file md5="40238992C22395C6F5CE0C3011801EA9" size="101980407" name="piggs/geom.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/geom.pigg</url>
+    </file>
+    <file md5="7ED80A009622C003A585D1B56D1FAADB" size="167716173" name="piggs/geomBC.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/geomBC.pigg</url>
+    </file>
+    <file md5="81356A3686EA528761239DB3D20DE312" size="2157788" name="piggs/geomV1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/geomV1.pigg</url>
+    </file>
+    <file md5="A3AAC19CC055057E5A7ACBFE6FF611DB" size="30124982" name="piggs/geomV2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/geomV2.pigg</url>
+    </file>
+    <file md5="46ABA7A665B5BF058B8F7417280C2E8F" size="2318163" name="piggs/mapsCities1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/mapsCities1.pigg</url>
+    </file>
+    <file md5="58082C0B82011BC8AD55E724AB0EB235" size="3539433" name="piggs/mapsCities2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/mapsCities2.pigg</url>
+    </file>
+    <file md5="5A544B22EB7F0A8DBD31CB9C632F93D3" size="7201017" name="piggs/mapsHazards.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/mapsHazards.pigg</url>
+    </file>
+    <file md5="4FAE2E235DD17F6348AC8CE4FA00188E" size="29030333" name="piggs/mapsMisc.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/mapsMisc.pigg</url>
+    </file>
+    <file md5="1A603510DE458669A79D68D731E2C65C" size="191447729" name="piggs/mapsMissions.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/mapsMissions.pigg</url>
+    </file>
+    <file md5="F7A5C8FB95459FB822627FC970E31CFA" size="5035603" name="piggs/mapsTrials.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/mapsTrials.pigg</url>
+    </file>
+    <file md5="7E62B6EE45DE760C891B0028D1A62D9E" size="436423" name="piggs/misc.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/misc.pigg</url>
+    </file>
+    <file md5="926912B6D0992AB73EF9F76EEFD260B9" size="17547239" name="piggs/player.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/player.pigg</url>
+    </file>
+    <file md5="5685C7568E87EE5C2D081BAA07D6B9EC" size="58143974" name="piggs/sound.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/sound.pigg</url>
+    </file>
+    <file md5="E4924D9C694388A4CE3FC6D71E730E93" size="25072754" name="piggs/sound1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/sound1.pigg</url>
+    </file>
+    <file md5="66D5FB94517248D8BEEC2E626001A77E" size="79026404" name="piggs/sound2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/sound2.pigg</url>
+    </file>
+    <file md5="54B8FA5DED4D18229214A35A29F78744" size="68528403" name="piggs/sound3.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/sound3.pigg</url>
+    </file>
+    <file md5="D58C0C7A7011846894E62735E7238F76" size="71485341" name="piggs/sound4.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/sound4.pigg</url>
+    </file>
+    <file md5="A345FC3ED5A980F150E8D0CD188E9D2D" size="23826933" name="piggs/sound5.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/sound5.pigg</url>
+    </file>
+    <file md5="49DD27155101DB1E212AC42C5CBB59D8" size="50096207" name="piggs/sound6.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/sound6.pigg</url>
+    </file>
+    <file md5="70B94BB2BC4A342C4C666A3A7263F654" size="62118318" name="piggs/sound7.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/sound7.pigg</url>
+    </file>
+    <file md5="662BF94D41F7B1C4A1272A8647C6CDAB" size="79284728" name="piggs/soundMusic.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/soundMusic.pigg</url>
+    </file>
+    <file md5="72ADCC85623926263701FD85739CB317" size="105235439" name="piggs/soundMusic1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/soundMusic1.pigg</url>
+    </file>
+    <file md5="3D06593BF7A10FD82AEE6D0B1785E013" size="114928439" name="piggs/soundMusic2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/soundMusic2.pigg</url>
+    </file>
+    <file md5="E3780EC1CD7E533D64352544C93E0855" size="18798752" name="piggs/soundPowers.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/soundPowers.pigg</url>
+    </file>
+    <file md5="144B584FB9945CC3F469DA101C0ADB56" size="31974452" name="piggs/soundV1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/soundV1.pigg</url>
+    </file>
+    <file md5="22A51E16F130755C9F3A39F946D145AE" size="30690946" name="piggs/soundV2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/soundV2.pigg</url>
+    </file>
+    <file md5="EF067838406E60EB17E5FF64BD1A8A72" size="28428809" name="piggs/soundVMusic.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/soundVMusic.pigg</url>
+    </file>
+    <file md5="A600C69A37213E53B6A909D4C36A3C16" size="87459151" name="piggs/stage1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage1.pigg</url>
+    </file>
+    <file md5="F2CB9E286826B6D01FBF8B8721448330" size="61306611" name="piggs/stage1a.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage1a.pigg</url>
+    </file>
+    <file md5="7921837066FDC29C7E98770D72DEBC41" size="144033704" name="piggs/stage1b.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage1b.pigg</url>
+    </file>
+    <file md5="5132C83E89EC1C34566C6D1143E6A249" size="201809454" name="piggs/stage1c.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage1c.pigg</url>
+    </file>
+    <file md5="DB7159DAA22F8BA3B1B309D5588B4846" size="85976182" name="piggs/stage1d.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage1d.pigg</url>
+    </file>
+    <file md5="F3846EF3849648E9CAD97D0B87028F56" size="63614423" name="piggs/stage1e.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage1e.pigg</url>
+    </file>
+    <file md5="4BECD7E43669DA5AE68D8CD37D898096" size="124587057" name="piggs/stage1f.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage1f.pigg</url>
+    </file>
+    <file md5="D265C6E5E6F18EC4CDF2462276D26698" size="88673593" name="piggs/stage2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage2.pigg</url>
+    </file>
+    <file md5="FDBD062A8CA95B5565BA4ABC21956259" size="69353816" name="piggs/stage2a.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage2a.pigg</url>
+    </file>
+    <file md5="6358FC5FB04A9FE4724DF40262CC6900" size="102575394" name="piggs/stage2b.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage2b.pigg</url>
+    </file>
+    <file md5="FF04AC39150A1DFBF95A525592BAC23D" size="98053608" name="piggs/stage2c.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage2c.pigg</url>
+    </file>
+    <file md5="DFD7D70F8852D219F3698044B7B3B2F7" size="120838386" name="piggs/stage3.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage3.pigg</url>
+    </file>
+    <file md5="9475D2E24A28C27DB9F733A389772A6A" size="76133806" name="piggs/stage3a.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage3a.pigg</url>
+    </file>
+    <file md5="ED859C6E6D30C271CE6ECB0B6F9E0BD0" size="94288451" name="piggs/stage3b.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage3b.pigg</url>
+    </file>
+    <file md5="2F71C55DBC18D7CCD3F2D97714A544BC" size="120989824" name="piggs/stage3c.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage3c.pigg</url>
+    </file>
+    <file md5="6DB9B1092B83A12C9D34F1002530756D" size="117707953" name="piggs/stage3d.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage3d.pigg</url>
+    </file>
+    <file md5="F0985699B72833D530603869CAE79BE0" size="103674426" name="piggs/stage3e.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage3e.pigg</url>
+    </file>
+    <file md5="B04D2E31C61306FBC19AD1A83CA73AE8" size="89617460" name="piggs/stage3f.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage3f.pigg</url>
+    </file>
+    <file md5="C8BE9D73551B60AF27167366245052E5" size="83430571" name="piggs/stage3g.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/stage3g.pigg</url>
+    </file>
+    <file md5="AAB346D71D53158169FECE8644C3BC5B" size="1665779" name="piggs/texEnemies.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texEnemies.pigg</url>
+    </file>
+    <file md5="D21F722B0A17E9F1E6EB6571004B3B0D" size="23391597" name="piggs/texEnemies2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texEnemies2.pigg</url>
+    </file>
+    <file md5="CC6B3B5A12E9D32CECA0BABC5FEA8537" size="4113262" name="piggs/texEnemies3.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texEnemies3.pigg</url>
+    </file>
+    <file md5="B65A2C479F1F3C2720276C22EBAFA2F6" size="4155374" name="piggs/texEnemies4.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texEnemies4.pigg</url>
+    </file>
+    <file md5="87C445994C258C78B61ACC73B85ACF89" size="5403262" name="piggs/texEnemies5.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texEnemies5.pigg</url>
+    </file>
+    <file md5="29D9E5B45DEDFB68FD98564B6E8E36AA" size="11929920" name="piggs/texFxGuiItems.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texFxGuiItems.pigg</url>
+    </file>
+    <file md5="EDD6061A225693177ED148001682512F" size="18287717" name="piggs/texGui1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texGui1.pigg</url>
+    </file>
+    <file md5="0BB4C1E97F53C55287B7871D7B60FA0C" size="154907821" name="piggs/texMaps.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texMaps.pigg</url>
+    </file>
+    <file md5="B85595BA78D066ACAE2BA65D143233E6" size="119931393" name="piggs/texMisc.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texMisc.pigg</url>
+    </file>
+    <file md5="893C1F8854C055825F1C8669B31C885B" size="4542733" name="piggs/texPlayersUI.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texPlayersUI.pigg</url>
+    </file>
+    <file md5="75521556CA00CC1DAFD0679AB74F0E8E" size="683463" name="piggs/texts.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texts.pigg</url>
+    </file>
+    <file md5="D63F1473E728C6C0DCFAC51B3B792CF5" size="11390327" name="piggs/texVEnemies.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texVEnemies.pigg</url>
+    </file>
+    <file md5="26CCED48EEA0379A1638D5B25DEEE514" size="42464511" name="piggs/texVWorld.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texVWorld.pigg</url>
+    </file>
+    <file md5="1278223FFB5A3F652989158A460B3C9A" size="27037480" name="piggs/texVWorld1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texVWorld1.pigg</url>
+    </file>
+    <file md5="6713D913BA3AD51E0CDE828D55BC21D0" size="8678429" name="piggs/texVWorld2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texVWorld2.pigg</url>
+    </file>
+    <file md5="D61B67A897ECEBD2621C0C5CC3C6EFFE" size="21498767" name="piggs/texVWorld3.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texVWorld3.pigg</url>
+    </file>
+    <file md5="D54C96AED0478EFC872EC4643A6AC2E4" size="54592901" name="piggs/texVWorldBases1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texVWorldBases1.pigg</url>
+    </file>
+    <file md5="131DA3DAFD966429A1746C7D8CD610FF" size="53233917" name="piggs/texVWorldBases2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texVWorldBases2.pigg</url>
+    </file>
+    <file md5="808DEF8B2D35647C85B609726BC3AB7B" size="41829634" name="piggs/texWorld.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texWorld.pigg</url>
+    </file>
+    <file md5="9468D71696814F36B93FE4C9FB767F87" size="66612759" name="piggs/texWorldBC.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texWorldBC.pigg</url>
+    </file>
+    <file md5="71C4D6F1253F0311E164B64B75945164" size="63752042" name="piggs/texWorldBuildings.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texWorldBuildings.pigg</url>
+    </file>
+    <file md5="BEF8E01B6CFC0A86C2F56A0E835A4F65" size="184436277" name="piggs/texWorldCZ.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texWorldCZ.pigg</url>
+    </file>
+    <file md5="9B914538DF6BC1C60778C19545EEA9C5" size="99009547" name="piggs/texWorldSW.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texWorldSW.pigg</url>
+    </file>
+    <file md5="FFA7B54E98795E5CD485BF8C540470D1" size="65102337" name="piggs/texWorldV1.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texWorldV1.pigg</url>
+    </file>
+    <file md5="5AAC77922809036BBE2A93CC2A7D58D7" size="42660930" name="piggs/texWorldV2.pigg">
+      <url>https://brute.coh.network/OuroDev/v2i1/piggs/texWorldV2.pigg</url>
+    </file>
+	
+	<!--Files to be deleted 
+    <file md5="A08BC1BB14BD20D2B7D92CA6F4ADBD7E" size="0" name="rebirthtest/v2i2_texture_library.pigg">
+      <url>https://brute.coh.network/rebirthtest/v2i2_texture_library.pigg</url>
+    </file>	
+    <file md5="D41D8CD98F00B204E9800998ECF8427E" size="0" name="rebirth/rebirth-bin.pigg">
+      <url>https://brute.coh.network/rebirth/rebirth-bin.pigg</url>
+    </file>
+    <file md5="D41D8CD98F00B204E9800998ECF8427E" size="0" name="rebirth/rebirth-ogg.pigg">
+      <url>https://brute.coh.network/rebirth/rebirth-ogg.pigg</url>
+    </file>
+    <file md5="D41D8CD98F00B204E9800998ECF8427E" size="0" name="rebirth/rebirth-tex.pigg">
+      <url>https://brute.coh.network/rebirth/rebirth-tex.pigg</url>
+    </file>
+		
+    <file md5="7A705AA0259B4BA07DF49E427D006163" size="0" name="rebirth/DBTextures.pigg">
+      <url>https://brute.coh.network/rebirth/DBTextures.pigg</url>
+    </file>
+    <file md5="415755240DCCE033C27F464724CBA3F0" size="0" name="Ouroboros.exe">
+      <url>https://brute.coh.network/rebirth/Ouroboros.exe</url>
+    </file>
+     <file md5="D41D8CD98F00B204E9800998ECF8427E" size="0" name="rebirth/ouro_bin_v2i1.pigg">
+      <url>https://brute.coh.network/rebirth/ouro_bin_v2i1.pigg</url>
+    </file>
+    <file md5="ABEFD84E04E6DECD9C530A814E89FA8F" size="0" name="rebirth/ouro_emblems_v2i1.pigg">
+      <url>https://brute.coh.network/rebirth/ouro_emblems_v2i1.pigg</url>
+    </file>
+    <file md5="3556FFC8413EF229B6E590C9C629569C" size="0" name="rebirth/ouro_login_v2i1.pigg">
+      <url>https://brute.coh.network/rebirth/ouro_login_v2i1.pigg</url>
+    </file>
+    <file md5="D04CC938EB8DFB2DDF4CFE82B30332E3" size="0" name="rebirth/rebirth.pigg">
+      <url>https://brute.coh.network/rebirth/rebirth.pigg</url>
+    </file>
+	End files to be deleted -->
+
+	<!-- Begin live files -->
+    <!--Patch Update 12/26/2021-->
+    <file md5="1ABA600DDAD39B911141B44D7490CBA5" size="8272384" name="Rebirth.exe">
+      <url>http://join.cityofheroesrebirth.com/game_files/live/Rebirth.exe</url>
+    </file>
+    <file md5="A02FC85F2B2AEC89CD4C60840CDDB1C5" size="36082434" name="rebirth/rebirth_bin.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/live/rebirth_bin.pigg</url>
+    </file>
+    <file md5="BB673AE3DC2CF88DE0DE5A204176A2E2" size="88143" name="rebirth/rebirth_blockbuster.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/live/rebirth_blockbuster.pigg</url>
+    </file>
+    <file md5="8B356C486E2E7A5E8EA5405E1CC2603C" size="7287232" name="rebirth/rebirth_geobin.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/live/rebirth_geobin.pigg</url>
+    </file>
+    <file md5="421628A5532C24F0CBF3D7E1D2CC4497" size="62117" name="rebirth/rebirth_object_library.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/live/rebirth_object_library.pigg</url>
+    </file>
+    <file md5="92A145C6FCF68DC3E414A0945D49989E" size="1851799" name="rebirth/rebirth_player_library.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/live/rebirth_player_library.pigg</url>
+    </file>
+    <file md5="72CC0E645EBDC12DD148D2510CA3DECB" size="785121" name="rebirth/rebirth_sound.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/live/rebirth_sound.pigg</url>
+    </file>
+    <file md5="502039F056AC8CC1062AF7A7921022C5" size="59428200" name="rebirth/rebirth_texture_library.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/live/rebirth_texture_library.pigg</url>
+    </file>
+	<!-- End live files -->
+	
+   	<!-- Begin test files -->
+    <file md5="FB714EBEEE231B9F6B98B54BDEEA1136" size="8272384" name="RebirthTest.exe">
+      <url>http://join.cityofheroesrebirth.com/game_files/test/RebirthTest.exe</url>
+    </file>
+    <file md5="2235EBC00F5D8B84794660E235F306FF" size="36097562" name="rebirth_test/rebirth_bin.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/test/rebirth_bin.pigg</url>
+    </file>
+    <file md5="BB673AE3DC2CF88DE0DE5A204176A2E2" size="88143" name="rebirth_test/rebirth_blockbuster.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/test/rebirth_blockbuster.pigg</url>
+    </file>
+    <file md5="A09FD18AE4D5034641CE7E2A1612AA0D" size="7300668" name="rebirth_test/rebirth_geobin.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/test/rebirth_geobin.pigg</url>
+    </file>
+    <file md5="2DBD0EC2992E1A22D4601EA3ACC2D09C" size="62117" name="rebirth_test/rebirth_object_library.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/test/rebirth_object_library.pigg</url>
+    </file>
+    <file md5="A3D1BC446B8292EBFE4563CB6F8654D9" size="1851799" name="rebirth_test/rebirth_player_library.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/test/rebirth_player_library.pigg</url>
+    </file>
+    <file md5="E605A27F62B0E629D9331C3C79714F78" size="785121" name="rebirth_test/rebirth_sound.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/test/rebirth_sound.pigg</url>
+    </file>
+    <file md5="93F909F31C1B90E4D0C37B9E20116DC7" size="59428200" name="rebirth_test/rebirth_texture_library.pigg">
+      <url>http://join.cityofheroesrebirth.com/game_files/test/rebirth_texture_library.pigg</url>
+    </file>
+	<!-- End test files -->
+  </filelist>
+
+<forums>
+<forum name="Rebirth Forum" url="https://forum.cityofheroesrebirth.com"/>
+</forums>
+<webpage>https://play.cityofheroesrebirth.com/embed.html</webpage>
+<poster_image url="https://play.cityofheroesrebirth.com/embed.html"/>			 
+</manifest>
